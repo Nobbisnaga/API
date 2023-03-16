@@ -2,6 +2,8 @@ import 'package:api/widgets/mydrawer.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+import 'body.dart';
+
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
 
@@ -27,6 +29,7 @@ class _MyHomePageState extends State<MyHomePage> {
             drawer: Drawer(
         child: MyDrawer(),
             ),
+            body: MyBody(),
       );
   }
 }
