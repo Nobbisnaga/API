@@ -1,9 +1,75 @@
-<mxfile host="app.diagrams.net" modified="2023-04-06T12:32:42.981Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.1.4" etag="x7SZGIBO0CCB5xTI6awJ" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-06T14:59:27.357Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="5rYZ3yNjrXNNDAJCpYB-" version="21.1.4" type="github">
   <diagram name="Página-1" id="cIxO0kSnO1Zjq61n_Mwn">
-    <mxGraphModel>
+    <mxGraphModel dx="1684" dy="1564" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="u2KsUQrhKxFPGHNxDmt6-8" value="escolha" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="259.5" y="233" width="111" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="u2KsUQrhKxFPGHNxDmt6-16" value="área digitada e comprimento digitados serão divididos por 2 e dado o resultado" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=16;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="-110.25" y="474" width="89.5" height="169.5" as="geometry" />
+        </mxCell>
+        <mxCell id="u2KsUQrhKxFPGHNxDmt6-37" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="u2KsUQrhKxFPGHNxDmt6-18" target="u2KsUQrhKxFPGHNxDmt6-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u2KsUQrhKxFPGHNxDmt6-18" value="calculadora" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="118" y="-89" width="405" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="u2KsUQrhKxFPGHNxDmt6-31" value="comprimento digitado será multiplicado por 2 e o resultado por PI 3.14 e dado o resultado" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-112.75" y="652" width="92" height="170.5" as="geometry" />
+        </mxCell>
+        <mxCell id="u2KsUQrhKxFPGHNxDmt6-32" value="peso digitado sera dividido pela altura ao quadrado e dado o resultado" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="407" y="697" width="92" height="171" as="geometry" />
+        </mxCell>
+        <mxCell id="u2KsUQrhKxFPGHNxDmt6-33" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-110.25" y="290" width="92" height="171" as="geometry" />
+        </mxCell>
+        <mxCell id="u2KsUQrhKxFPGHNxDmt6-34" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="608" y="652" width="92" height="171" as="geometry" />
+        </mxCell>
+        <mxCell id="u2KsUQrhKxFPGHNxDmt6-54" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="u2KsUQrhKxFPGHNxDmt6-35" target="u2KsUQrhKxFPGHNxDmt6-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u2KsUQrhKxFPGHNxDmt6-35" value="Digite a operação" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="265" y="33" width="100" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="u2KsUQrhKxFPGHNxDmt6-40" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="u2KsUQrhKxFPGHNxDmt6-39" target="u2KsUQrhKxFPGHNxDmt6-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u2KsUQrhKxFPGHNxDmt6-39" value="escolha" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="262" y="143" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u2KsUQrhKxFPGHNxDmt6-43" value="Area" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="3" y="378" width="52" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="u2KsUQrhKxFPGHNxDmt6-44" value="Raio" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="88" y="409" width="51" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="u2KsUQrhKxFPGHNxDmt6-46" value="IMC" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="169" y="657" width="47" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="u2KsUQrhKxFPGHNxDmt6-47" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="608" y="286" width="92" height="171" as="geometry" />
+        </mxCell>
+        <mxCell id="u2KsUQrhKxFPGHNxDmt6-48" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="608" y="472.5" width="92" height="171" as="geometry" />
+        </mxCell>
+        <mxCell id="u2KsUQrhKxFPGHNxDmt6-49" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="305" y="695" width="92" height="171" as="geometry" />
+        </mxCell>
+        <mxCell id="u2KsUQrhKxFPGHNxDmt6-50" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-4" y="695" width="92" height="171" as="geometry" />
+        </mxCell>
+        <mxCell id="u2KsUQrhKxFPGHNxDmt6-51" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="206" y="695" width="92" height="171" as="geometry" />
+        </mxCell>
+        <mxCell id="u2KsUQrhKxFPGHNxDmt6-52" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="507" y="697" width="92" height="171" as="geometry" />
+        </mxCell>
+        <mxCell id="u2KsUQrhKxFPGHNxDmt6-53" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="102" y="695" width="92" height="171" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
